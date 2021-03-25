@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>USA:: Holidays</title>
+</head>
+<body>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Culture.html">Culture</a></li>
+    <li><a href="holidays.html">Holidays</a></li>
+    <li><a href="politics.html">Politics</a></li>
+    <li><a href="facts.html">Facts</a></li>
+</ul>
+</body>
+</html>

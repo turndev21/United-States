@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cultural Aspects</title>
+</head>
+<body>
+<header>
+    <h1>Cultural Aspects</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aspects.html">Cultural Aspects</a></li>
+        <li><a href="advice.html">Advice for Travelers</a></li>
+        <li><a href="CulturalShock.html">Preventing Cultural Shock</a></li>
+    </ul>
+</nav>
+
+</body>
+</html>

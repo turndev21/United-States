@@ -2,23 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>USA</title>
+    <title>USA:: Overview</title>
+    <link href="USA.css" rel="stylesheet">
 </head>
-<body>
-<header>
-    <h1>USA</h1>
-</header>
+<body class="content">
+<div id="wrapper">
+    <header>
+        <h1>Traveling To the United States</h1>
+    </header>
+    <nav>
 
-<nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Culture.html">Culture</a></li>
+            <li><a href="holidays.html">Holidays</a></li>
+            <li><a href="politics.html">Politics</a></li>
+            <li><a href="Facts.html">Facts</a></li>
+        </ul>
+    </nav>
+</div>
+</body>
+<h3>Neighboring countries/oceans:</h3>
     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="aspects.html">Cultural Aspects</a></li>
-        <li><a href="advice.html">Advice for Travelers</a></li>
-        <li><a href="CulturalShock.html">Preventing Cultural Shock</a></li>
+        <li>On the southern border of the USA, Mexico is located right down below.</li>
+        <li>On the northern border of the USA, Canada is located right above it.</li>
+        <li>there’s contact with The Pacific Ocean to the west</li>
+        <li> the Atlantic Ocean to the east</li>
+        <li>the Gulf of Mexico to the southeast</li>
     </ul>
-</nav>
-
-
-
+<h3>Capital</h3>
+<p>The capital of the United States of America is Washington DC. It is located in the District of Columbia.</p>
+<h3>States</h3>
+<p>The United States of America has a total of 50 states. Getting a little bit deeper, there’s a total of 3,006 counties across the country.</p>
 </body>
 </html>

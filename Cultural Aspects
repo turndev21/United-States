@@ -6,7 +6,7 @@
     <link href="USA.css" rel="stylesheet">
 
 </head>
-<body class="content">
+<body >
 <div id="wrapper">
 <header>
     <h1>Traveling To the United States</h1>

@@ -2,21 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Cultural Aspects</title>
+    <title>USA:: Culture</title>
+    <link href="USA.css" rel="stylesheet">
+
 </head>
-<body>
+<body class="content">
+<div id="wrapper">
 <header>
-    <h1>Cultural Aspects</h1>
+    <h1>Traveling To the United States</h1>
 </header>
-
 <nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="aspects.html">Cultural Aspects</a></li>
-        <li><a href="advice.html">Advice for Travelers</a></li>
-        <li><a href="CulturalShock.html">Preventing Cultural Shock</a></li>
-    </ul>
-</nav>
 
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Culture.html">Culture</a></li>
+    <li><a href="holidays.html">Holidays</a></li>
+    <li><a href="politics.html">Politics</a></li>
+    <li><a href="Facts.html">Facts</a></li>
+</ul>
+</nav>
+</div>
 </body>
 </html>

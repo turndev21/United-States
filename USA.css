@@ -2,8 +2,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-repeat: no-repeat;
 }
-#wrapper {
+head{
+    background-color: #b5651d;
+}
+.wrapper {
     background-repeat: no-repeat;
+    background-color: lightblue;
 }
 h1 {
     letter-spacing: 0.25em;
@@ -13,6 +17,7 @@ h1 {
     padding-bottom: 0.5em;
     font-family: Georgia, "Times New Roman", serif;
     color: black;
+
 }
 nav {
     font-weight: bold;
@@ -31,7 +36,7 @@ nav a {
     text-decoration: none;
     transition: color 3s ease-out;
 }
-nav a:link { color: #5C7FA3; }
+nav a:link { color: white; }
 nav a:visited { color: #344873; }
 nav a:hover { color: #A52A2A; }
 footer {

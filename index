@@ -4,15 +4,87 @@
     <meta charset="UTF-8">
     <title>USA:: Overview</title>
     <link href="USA.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        /* The switch - the box around the slider */
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+        /* Hide default HTML checkbox */
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        /* The slider */
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+
+        input:focus + .slider {
+            box-shadow: 0 0 1px #2196F3;
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+        }
+
+    </style>
+    <form>English or Spanish<br>
+        <label class="switch">
+            <input type="checkbox" class="checkbox">
+            <span class="slider"></span>
+        </label>
+
+    </form>
 </head>
+
+
+
+
+
+
+
+
+
 <body class="content">
-<div id="wrapper">
+<div class="wrapper">
     <header>
-        <h1>Traveling To the United States</h1>
+        <h1 class="En">Traveling To the United States</h1>
     </header>
     <nav>
 
-        <ul>
+        <ul class="En">
             <li><a href="index.html">Home</a></li>
             <li><a href="Culture.html">Culture</a></li>
             <li><a href="holidays.html">Holidays</a></li>
@@ -22,17 +94,62 @@
     </nav>
 </div>
 </body>
-<h3>Neighboring countries/oceans:</h3>
-    <ul>
+<h3 class="En">Neighboring countries/oceans:</h3>
+    <ul class="En">
         <li>On the southern border of the USA, Mexico is located right down below.</li>
         <li>On the northern border of the USA, Canada is located right above it.</li>
         <li>there’s contact with The Pacific Ocean to the west</li>
         <li> the Atlantic Ocean to the east</li>
         <li>the Gulf of Mexico to the southeast</li>
     </ul>
-<h3>Capital</h3>
-<p>The capital of the United States of America is Washington DC. It is located in the District of Columbia.</p>
-<h3>States</h3>
-<p>The United States of America has a total of 50 states. Getting a little bit deeper, there’s a total of 3,006 counties across the country.</p>
+<h3 class="En">Capital</h3>
+<p class="En">The capital of the United States of America is Washington DC. It is located in the District of Columbia.</p>
+<h3 class="En">States</h3>
+<p class="En">The United States of America has a total of 50 states. Getting a little bit deeper, there’s a total of 3,006 counties across the country.</p>
+
+
+<div class="wrapper">
+<header>
+    <h1 class="Sp">Traveling To the United States</h1>
+</header>
+<nav>
+
+    <ul class="Sp">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Culture.html">Culture</a></li>
+        <li><a href="holidays.html">Holidays</a></li>
+        <li><a href="politics.html">Politics</a></li>
+        <li><a href="Facts.html">Facts</a></li>
+    </ul>
+</nav>
+</div>
 </body>
+<h3 class="Sp">Neighboring countries/oceans:</h3>
+<ul class="Sp">
+    <li>temp.</li>
+    <li>temp.</li>
+    <li>temp</li>
+    <li>temp</li>
+    <li>temp</li>
+</ul>
+<h3 class="Sp">Capital</h3>
+<p class="Sp">The capital of the United States of America is Washington DC. It is located in the District of Columbia.</p>
+<h3 class="Sp">States</h3>
+<p class="Sp">The United States of America has a total of 50 states. Getting a little bit deeper, there’s a total of 3,006 counties across the country.</p>
+</body>
+<script>
+    $(document).ready(function() {
+        $(".Sp").hide();
+    });
+    $(".checkbox").change(function() {
+        if(this.checked) {
+            $(".Sp").show();
+            $(".En").hide();
+        }
+        else {
+            $(".En").show();
+            $(".Sp").hide();
+        }
+    });
+</script>
 </html>

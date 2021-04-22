@@ -60,7 +60,7 @@
         }
 
     </style>
-    <form>English or Spanish<br>
+    <form>English or Espanol<br>
         <label class="switch">
             <input type="checkbox" class="checkbox">
             <span class="slider"></span>
@@ -95,13 +95,13 @@
 </div>
 </body>
 <h3 class="En">Neighboring countries/oceans:</h3>
-    <ul class="En">
-        <li>On the southern border of the USA, Mexico is located right down below.</li>
-        <li>On the northern border of the USA, Canada is located right above it.</li>
-        <li>there’s contact with The Pacific Ocean to the west</li>
-        <li> the Atlantic Ocean to the east</li>
-        <li>the Gulf of Mexico to the southeast</li>
-    </ul>
+<ul class="En">
+    <li>On the southern border of the USA, Mexico is located right down below.</li>
+    <li>On the northern border of the USA, Canada is located right above it.</li>
+    <li>there’s contact with The Pacific Ocean to the west</li>
+    <li> the Atlantic Ocean to the east</li>
+    <li>the Gulf of Mexico to the southeast</li>
+</ul>
 <h3 class="En">Capital</h3>
 <p class="En">The capital of the United States of America is Washington DC. It is located in the District of Columbia.</p>
 <h3 class="En">States</h3>
@@ -109,19 +109,19 @@
 
 
 <div class="wrapper">
-<header>
-    <h1 class="Sp">Traveling To the United States</h1>
-</header>
-<nav>
+    <header>
+        <h1 class="Sp">Traveling To the United States</h1>
+    </header>
+    <nav>
 
-    <ul class="Sp">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="Culture.html">Culture</a></li>
-        <li><a href="holidays.html">Holidays</a></li>
-        <li><a href="politics.html">Politics</a></li>
-        <li><a href="Facts.html">Facts</a></li>
-    </ul>
-</nav>
+        <ul class="Sp">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Culture.html">Culture</a></li>
+            <li><a href="holidays.html">Holidays</a></li>
+            <li><a href="politics.html">Politics</a></li>
+            <li><a href="Facts.html">Facts</a></li>
+        </ul>
+    </nav>
 </div>
 </body>
 <h3 class="Sp">Neighboring countries/oceans:</h3>

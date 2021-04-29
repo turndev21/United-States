@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>USA:: Overview</title>
     <link href="USA.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -77,13 +79,13 @@
 
 
 
-<body class="content">
-<div class="wrapper">
+
+<body >
+
     <header>
         <h1 class="En">Traveling To the United States</h1>
     </header>
     <nav>
-
         <ul class="En">
             <li><a href="index.html">Home</a></li>
             <li><a href="Culture.html">Culture</a></li>
@@ -92,28 +94,51 @@
             <li><a href="Facts.html">Facts</a></li>
         </ul>
     </nav>
+    <div class="wrapper">
+    <div>
+
+    </div>
+    <main>
+        <h2 class="En">Neighboring countries/oceans:</h2>
+
+        <ul class="En">
+            <li>On the southern border of the USA, Mexico is located right down below.</li>
+            <li>On the northern border of the USA, Canada is located right above it.</li>
+            <li>there’s contact with The Pacific Ocean to the west</li>
+            <li> the Atlantic Ocean to the east</li>
+            <li>the Gulf of Mexico to the southeast</li>
+        </ul>
+        <h3 class="En">Capital</h3>
+        <p class="En">The capital of the United States of America is Washington DC. It is located in the District of Columbia.</p>
+        <h3 class="En">States</h3>
+        <p class="En">The United States of America has a total of 50 states. Getting a little bit deeper, there’s a total of 3,006 counties across the country.</p>
+    </main>
 </div>
 </body>
-<h3 class="En">Neighboring countries/oceans:</h3>
-<ul class="En">
-    <li>On the southern border of the USA, Mexico is located right down below.</li>
-    <li>On the northern border of the USA, Canada is located right above it.</li>
-    <li>there’s contact with The Pacific Ocean to the west</li>
-    <li> the Atlantic Ocean to the east</li>
-    <li>the Gulf of Mexico to the southeast</li>
-</ul>
-<h3 class="En">Capital</h3>
-<p class="En">The capital of the United States of America is Washington DC. It is located in the District of Columbia.</p>
-<h3 class="En">States</h3>
-<p class="En">The United States of America has a total of 50 states. Getting a little bit deeper, there’s a total of 3,006 counties across the country.</p>
 
 
-<div class="wrapper">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body >
+
     <header>
         <h1 class="Sp">Traveling To the United States</h1>
     </header>
     <nav>
-
         <ul class="Sp">
             <li><a href="index.html">Home</a></li>
             <li><a href="Culture.html">Culture</a></li>
@@ -122,21 +147,28 @@
             <li><a href="Facts.html">Facts</a></li>
         </ul>
     </nav>
+    <div class="wrapper">
+    <div>
+
+    </div>
+    <main>
+        <h2 class="Sp">Neighboring countries/oceans:</h2>
+
+        <ul class="Sp">
+            <li>On the southern border of the USA, Mexico is located right down below.</li>
+            <li>On the northern border of the USA, Canada is located right above it.</li>
+            <li>there’s contact with The Pacific Ocean to the west</li>
+            <li> the Atlantic Ocean to the east</li>
+            <li>the Gulf of Mexico to the southeast</li>
+        </ul>
+        <h3 class="Sp">Capital</h3>
+        <p class="Sp">The capital of the United States of America is Washington DC. It is located in the District of Columbia.</p>
+        <h3 class="Sp">States</h3>
+        <p class="Sp">The United States of America has a total of 50 states. Getting a little bit deeper, there’s a total of 3,006 counties across the country.</p>
+    </main>
 </div>
 </body>
-<h3 class="Sp">Neighboring countries/oceans:</h3>
-<ul class="Sp">
-    <li>temp.</li>
-    <li>temp.</li>
-    <li>temp</li>
-    <li>temp</li>
-    <li>temp</li>
-</ul>
-<h3 class="Sp">Capital</h3>
-<p class="Sp">The capital of the United States of America is Washington DC. It is located in the District of Columbia.</p>
-<h3 class="Sp">States</h3>
-<p class="Sp">The United States of America has a total of 50 states. Getting a little bit deeper, there’s a total of 3,006 counties across the country.</p>
-</body>
+
 <script>
     $(document).ready(function() {
         $(".Sp").hide();

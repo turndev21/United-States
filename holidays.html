@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USA:: Overview</title>
+    <link href="USA.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        /* The switch - the box around the slider */
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+        /* Hide default HTML checkbox */
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        /* The slider */
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+
+        input:focus + .slider {
+            box-shadow: 0 0 1px #2196F3;
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+        }
+
+    </style>
+    <form>English or Espanol<br>
+        <label class="switch">
+            <input type="checkbox" class="checkbox">
+            <span class="slider"></span>
+        </label>
+
+    </form>
+</head>
+
+
+
+
+
+
+
+
+
+
+<body >
+
+<header>
+    <h1 class="En">Traveling To the United States</h1>
+</header>
+<nav>
+    <ul class="En">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Culture.html">Culture</a></li>
+        <li><a href="holidays.html">Holidays</a></li>
+        <li><a href="politics.html">Politics</a></li>
+        <li><a href="Facts.html">Facts</a></li>
+        <li><a href="Quiz.html">Quiz</a></li>
+    </ul>
+</nav>
+<div class="wrapper">
+    <div>
+
+    </div>
+    <main>
+        <h2 class="En">Unique American Holidays:</h2>
+
+        <h3 class="En">4th of July</h3>
+        <p class="En">The celebration of the Fourth of July is a commemoration of the country's birth and newfound freedom, this celebration is on that date because the Declaration of Independence from the British Empire was on July 4th of 1776.
+            It is usually celebrated with festivities ranging from fireworks, concerts, and barbecues. People wear red, white, and blue clothes to honor the flag.</p>
+        <h3 class="En">Thanks Giving</h3>
+        <p class="En">Thanksgiving is celebrated on the fourth Thursday of November every year, the families reunite and give thanks for the past year. Thanksgiving meals usually include turkey, bread stuffing, potatoes, and pumpkin pie.
+        </p>
+    </main>
+</div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body >
+
+<header>
+    <h1 class="Sp">Traveling To the United States</h1>
+</header>
+<nav>
+    <ul class="Sp">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Culture.html">Culture</a></li>
+        <li><a href="holidays.html">Holidays</a></li>
+        <li><a href="politics.html">Politics</a></li>
+        <li><a href="Facts.html">Facts</a></li>
+    </ul>
+</nav>
+<div class="wrapper">
+    <div>
+
+    </div>
+    <main>
+        <h2 class="Sp">
+            Vacaciones americanas únicas:</h2>
+
+        <h3 class="Sp">La celebración del 4 de julio</h3>
+        <p class="Sp">La celebración del 4 de julio es una conmemoración del nacimiento del país y la nueva libertad, esta celebración es en esa fecha porque la Declaración de Independencia del Imperio Británico fue el 4 de julio de 1776.
+            Se suele celebrar con festividades que van desde fuegos artificiales, conciertos y barbacoas. La gente usa ropa roja, blanca y azul en honor a la
+            bandera.
+
+        </p>
+        <h3 class="Sp">El Día de Acción de Gracias</h3>
+        <p class="Sp">El Día de Acción de Gracias se celebra el cuarto jueves de noviembre de cada año, las familias se reúnen y dan gracias por el año pasado. Las comidas de Acción de Gracias generalmente incluyen pavo, relleno de pan, papas y pastel de calabaza.
+        </p>
+    </main>
+</div>
+</body>
+
+<script>
+    $(document).ready(function() {
+        $(".Sp").hide();
+    });
+    $(".checkbox").change(function() {
+        if(this.checked) {
+            $(".Sp").show();
+            $(".En").hide();
+        }
+        else {
+            $(".En").show();
+            $(".Sp").hide();
+        }
+    });
+</script>
+</html>
